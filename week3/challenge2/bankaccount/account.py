@@ -1,6 +1,6 @@
 class BankAccount:
-    def __init__(self):
-        pass
+    def __init__(self,):
+        
 
     def get_balance(self):
         pass

@@ -1,0 +1,23 @@
+ h{
+     color: green;
+ }
+body{
+    font family:"Arial";
+}
+.id=navbar{
+    padding:
+    textalign:right;
+}
+.container{
+    float : left;
+    width :50%;
+
+}
+.aside{
+    float :left;
+    width :50%:
+}
+.main{
+    float :right;
+    width : 80% ;
+}
