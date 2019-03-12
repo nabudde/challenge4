@@ -1,3 +1,6 @@
+import click
+import requests
+
 @click.group()
 def main(add argument):
 """
@@ -12,7 +15,7 @@ Enter your choice from the source list
   pass
 @main.command()
 def topheadlines():
-"""
+""" 
 Get a list of top 10 headlines from the sources
 """
   pass
