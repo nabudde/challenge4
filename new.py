@@ -17,7 +17,7 @@ user is able to get news headline like a title, description and a url if they wa
 def name_of_newssource():
     """ Lists of 4 newssources from the API  """
 
-     url =  "https://newsapi.org/v2/everything?apikey=07145425325426b95797acf24ccb292"
+     url =  "https://newsapi.org/v2/top-headlines?sources=google-news-br&apiKey=2c6d0b1d57474731a49a989af03a13b9"
     #fetch data in json
     open_source = requests.get(url).json
     #get all articles in a string src
@@ -52,7 +52,7 @@ topheadlines()#we call the function
 
 if __name__ == '__main__':
     main()
-    print("#########################  we are running the application ")
+    # print("#########################  we are running the application ")
 
     
 
